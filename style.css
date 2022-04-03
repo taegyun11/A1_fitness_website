@@ -10,6 +10,22 @@ a{
     color: black;
 }
 
+h5{
+    font-style: italic;
+    font-family: 'oswald', sans-serif;
+    font-weight: bold;
+}
+
+h6{
+    font-family: 'oswald', sans-serif;
+}
+
+.body_text{
+    margin-top: 2em;
+    left: 0;
+
+}
+
 .menu{
     position: relative;
     width: 90%;
@@ -17,12 +33,13 @@ a{
 }
 .navbar_logo{
     width: 5em;
-    margin-left: 10em;
+    margin-left: 5em;
 }
 .my-navbar{
     width: 100%;
     padding: 20px 20px;
     background-color: white;
+    
     position: absolute;
     top: 20px;
     left: 0;
@@ -85,14 +102,62 @@ a{
     position: relative;
     width: 100%;
 }
+.title_text{
+    font-size: 25px;
+}
 
 .carousel-item img{
     width: 100%;
-    height: 150vh;
+    height: 120vh;
+}
+.body_title{
+    display: flex;
+    justify-content: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: bold;
+    border-bottom: groove;
+    margin-left: 30em;
+    margin-right: 30em;
+
+}
+.body_title :hover{
+    color: #2f3542;
+
+}
+.body_filling{
+    display: flex;
+    justify-content: right;
+    margin-top: 2em;
+    
 }
 
+
+.body_filling_picture{
+    width: 23em;
+    border: rgb(216, 200, 110);
+    border-style: double;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.body_filling_picture:hover{
+    transform:scale(1.01);
+}
 
 @keyframes scroll{
     0%{transform:translateY(-100%);}
     100%{transform:translateY(0%);}
+}
+
+@media screen and (max-width:1276px){
+    .navbar_logo{
+        margin-left: 0;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: auto;
+    }
+    .body_title{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
 }
