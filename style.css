@@ -39,7 +39,7 @@ h6{
     width: 100%;
     padding: 20px 20px;
     background-color: white;
-    
+    border-radius: 5px;
     position: absolute;
     top: 20px;
     left: 0;
@@ -108,7 +108,7 @@ h6{
 
 .carousel-item img{
     width: 100%;
-    height: 120vh;
+    height: 130vh;
 }
 .body_title{
     display: flex;
@@ -131,6 +131,22 @@ h6{
     
 }
 
+.trainer_center{
+    justify-content: center;
+}
+.trainer_right{
+    justify-content: left;
+}
+.map_web{
+    width: 50%;
+}
+.map_size{
+    margin-top: 2em;
+    justify-content: center;
+}
+.map_phone{
+    display: none;
+}
 
 .body_filling_picture{
     width: 23em;
@@ -141,6 +157,81 @@ h6{
 }
 .body_filling_picture:hover{
     transform:scale(1.01);
+}
+
+.contact_in{
+    margin-top: 100px;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact_form{
+    align-items: center;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.input_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    margin-bottom: 50px;
+    
+
+}
+
+.contact_form_txt{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.contact_form_textarea{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-top: 60px;
+}
+
+.contact_form_btn{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 50px;
+}
+
+.bottom_text{
+    padding-bottom: 50px;
+    bottom: 100px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'oswald', sans-serif;
+	font-size: 15px;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 @keyframes scroll{
@@ -159,5 +250,8 @@ h6{
     .body_title{
         margin-left: 4em;
         margin-right: 4em;
+    }
+    .map_phone{
+        display: block;
     }
 }
