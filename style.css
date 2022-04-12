@@ -368,7 +368,7 @@ menu.open > .trigger > i{
         margin-top:1rem ;
     }
     menu{
-        --padding:2rem;
+        --padding:3rem;
     }
     .body_title{
         margin-left: 4em;
