@@ -26,6 +26,13 @@ h6{
 
 }
 
+.greetings_text{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .menu{
     position: relative;
     width: 90%;
@@ -130,7 +137,9 @@ h6{
     margin-top: 2em;
     
 }
-
+.about_picture{
+    justify-content: center;
+}
 .trainer_center{
     justify-content: center;
 }
@@ -148,6 +157,13 @@ h6{
     display: none;
 }
 
+.single_tab_mt{
+    padding-top: 15em;
+}
+.program_web_ml_mr{
+    margin-left: 6em;
+    margin-right: 6em;
+}
 .body_filling_picture{
     width: 23em;
     border: rgb(216, 200, 110);
